@@ -1,0 +1,28 @@
+[workspace]
+members = [
+    "crates/junqi-core",
+    "crates/junqi-ai",
+    "crates/junqi-net",
+    "crates/junqi-storage",
+    "crates/junqi-rendezvous",
+    "crates/junqi-app",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["junqi"]
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.8"
+chrono = { version = "0.4", features = ["serde"] }
+tokio = { version = "1", features = ["full"] }
+log = "0.4"
+env_logger = "0.11"
+egui = "0.29"
+eframe = "0.29"
+thiserror = "2"

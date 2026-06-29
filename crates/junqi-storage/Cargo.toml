@@ -1,0 +1,15 @@
+[package]
+name = "junqi-storage"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "军棋持久化层——布阵存储、复盘记录、用户设置"
+
+[dependencies]
+junqi-core = { path = "../junqi-core" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }

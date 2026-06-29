@@ -1,0 +1,21 @@
+[package]
+name = "junqi-app"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "军棋 GUI 前端——eframe/egui 界面，包含棋盘渲染、布阵管理、复盘查看"
+
+[dependencies]
+junqi-core = { path = "../junqi-core" }
+junqi-ai = { path = "../junqi-ai" }
+junqi-net = { path = "../junqi-net" }
+junqi-storage = { path = "../junqi-storage" }
+egui = { workspace = true }
+eframe = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }
+rand = { workspace = true }

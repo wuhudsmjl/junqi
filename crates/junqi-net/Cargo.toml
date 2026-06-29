@@ -1,0 +1,16 @@
+[package]
+name = "junqi-net"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "军棋网络层——P2P 直连、房间管理、对局同步"
+
+[dependencies]
+junqi-core = { path = "../junqi-core" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+rand = { workspace = true }
+log = { workspace = true }
+thiserror = { workspace = true }

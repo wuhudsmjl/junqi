@@ -1,0 +1,12 @@
+[package]
+name = "junqi-ai"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "军棋 AI 引擎——局面评估、搜索算法、难度等级"
+
+[dependencies]
+junqi-core = { path = "../junqi-core" }
+rand = { workspace = true }
+log = { workspace = true }

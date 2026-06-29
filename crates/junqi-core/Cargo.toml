@@ -1,0 +1,14 @@
+[package]
+name = "junqi-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "军棋陆战棋核心引擎——棋盘、棋子、规则、对局状态机"
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+rand = { workspace = true }
+chrono = { workspace = true }
+thiserror = { workspace = true }
